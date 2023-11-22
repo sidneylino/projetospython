@@ -4,7 +4,7 @@ encerrar = 1
 catalogo = []
 while encerrar == 1:
     print("-"*42)
-    opcao = int(input("selecione a opção:\n[1]cadastrar produtos\n[2]buscar produtos\n[3]encerrar\n"+"-"*42))
+    opcao = int(input("selecione a opção:\n[1]cadastrar produtos\n[2]lista de produtos\n[3]encerrar\n"+"-"*42))
     if opcao == 1:
         nome = input("nome:")
         quantidade = input("quantos?")
